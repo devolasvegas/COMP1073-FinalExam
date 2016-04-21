@@ -20,21 +20,24 @@
 <body>
 <h1>The Dice Roller</h1>
 
-<div class="container">
-    <div class="row">
-        <figure class="col-md-3">
-            <img src="" alt="" id="die1-pic">
-            <figcaption id="die1"></figcaption>
-        </figure>
-        <figure class="col-md-3">
-            <img src="" alt="" id="die2-pic">
-            <figcaption id="die2"></figcaption>
-        </figure>
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="img/1.png" alt="Die 1" id="die1-pic">
+                <p id="die1">???</p>
+            </div>
+            <div class="col-md-2">
+                <img src="img/1.png" alt="Die 2" id="die2-pic">
+                <p id="die2">???</p>
+            </div>
+        </div>
+        <div class="row">
+            <button type="button" class="btn-primary" id="roll-em">Roll 'Em</button>
+        </div>
     </div>
-    <div class="row">
-        <button type="button" class="btn-primary" id="roll-em">Roll 'Em</button>
-    </div>
-</div>
+</main>
+
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
