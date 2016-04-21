@@ -14,26 +14,33 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css" />
+
 </head>
 <body>
+
 <h1>The Dice Roller</h1>
 
 <main>
+
+    <!-- Created default content as placeholder -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-2">
+            <figure class="col-md-4">
                 <img src="img/1.png" alt="Die 1" id="die1-pic">
-                <p id="die1">???</p>
-            </div>
-            <div class="col-lg-2 col-lg-offset-2">
+                <figcaption id="die1">???</figcaption>
+            </figure>
+            <figure class="col-md-4">
                 <img src="img/1.png" alt="Die 2" id="die2-pic">
-                <p id="die2">???</p>
-            </div>
+                <figcaption id="die2">???</figcaption>
+            </figure>
         </div>
         <div class="row">
-            <button type="button" class="btn btn-primary" id="roll-em">Roll 'Em</button>
+            <button type="button" class="btn btn-primary col-md-offset-3" id="roll-em">Roll 'Em</button>
         </div>
     </div>
+
 </main>
 
 
